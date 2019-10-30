@@ -2,6 +2,7 @@
 GUI application to help in batch sorting of image data for use with keras classifiers.
 
 ### File usage
+```
 Using TensorFlow backend.
 Usage: batch_classify.py [OPTIONS]
 
@@ -25,6 +26,7 @@ Options:
   --unsorted_directory TEXT  Files will be bulk classified and MOVED from here
   --sorted_directory TEXT    Desitation folder for sorted dataset
   --help                     Show this message and exit.
+```
 
 ### Dependencies
 The script relies on the following list of python modules, which are all available through pip
